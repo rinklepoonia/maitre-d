@@ -4,12 +4,20 @@
     --fs-sm: 16px;
     --fs-md: 20px;
     --fs-lg: 24px;
-    --fs-xl: 30px;
+    --fs-xl: 25px;
     --fs-2xl: 48px;
     --fs-3xl: 61.17px;
     /* color */
     --clr-black: #000000;
-    --clr-gridentOrnage:#FD9B2B;
+    --clr-gridentOrnage: #FD9B2B;
+    --clr-whiteShadow: #0000000A;
+    --clr-brownniss: #FF586E47;
+    --clr-white: #FFFFFF;
+    --clr-purple: #8256F066;
+}
+
+.color-white {
+    color: var(--clr-white);
 }
 
 .color-black {
