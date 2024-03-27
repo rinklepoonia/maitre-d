@@ -5,16 +5,18 @@
     --fs-md: 16px;
     --fs-lg: 20px;
     --fs-xl: 25px;
-    --fs-2xl: 48px;
+    --fs-2xl: 30px;
     --fs-3xl: 61.17px;
     /* color */
     --clr-black: #000000;
     --clr-gridentOrnage: #FD9B2B;
     --clr-whiteShadow: #0000000A;
+    --clr-pureWhite: #0000000F;
     --clr-brownniss: #FF586E47;
     --clr-white: #FFFFFF;
     --clr-purple: #8256F066;
-    --clr-gridentRed:#F14F09;
+    --clr-gridentRed: #F14F09;
+    --clr-borderWhite: #E8E8E8;
 }
 
 .color-white {
@@ -60,6 +62,7 @@
 @media (min-width:576px) {
     :root {
         --fs-md: 20px;
+        --fs-2xl: 48px;
     }
 }
 
