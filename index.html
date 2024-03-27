@@ -5,6 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>maitre-d</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="icon" href="./assets/images/svg/matire-logo.svg">
@@ -146,18 +152,300 @@
         </div>
     </section>
     <!-- =======modules=========== -->
-    <section>
+    <section class="mb-5 position-relative">
         <div class="container">
+            <div class="position-absolute slider_icon_position d-md-block d-none">
+                <svg width="27" height="29" viewBox="0 0 27 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.51123 1L18.1245 28.4384" stroke="#F6A915" stroke-miterlimit="10" />
+                    <path d="M1 20.5901L26 10.1641" stroke="#F6A915" stroke-miterlimit="10" />
+                </svg>
+            </div>
             <p
-                class="ff-work fw-600 text16-sm lh-19 gradient_text max_w_72  position-relative mb-lg-2  mb-0 heading_sideline text-center mx-auto">
-                Features</p>
-            <h2 class="ff-work fw-700 text40-xl lh-47 color-black mb-lg-2 mb-0 text-center">Why Choose <span
+                class="ff-work fw-600 text16-sm lh-19 gradient_text max_w_72  position-relative mb-lg-2 mb-0 heading_sideline text-center mx-auto">
+                Modules</p>
+            <h2 class="ff-work fw-700 text40-xl lh-47 color-black text-center mb_lg_78 mb_sm_25 mb-">Why Choose <span
                     class="gradient_text position-relative">Maître D?</span></h2>
+            <div class="responsive">
+                <div class="d-flex justify-content-center position-relative">
+                    <div class="position-absolute next_btn_Icon d-xl-block d-none next"><img
+                            src="./assets/images/svg/next_btn.svg" alt="next_btn">
+                    </div>
+                    <div class="position-absolute prev_btn_Icon d-xl-block d-none prev"><img
+                            src="./assets/images/svg/prev_btn.svg" alt="prev_btn"></div>
+                    <div class="d-flex justify-content-center flex_wrap gap_lg_52  modules_box">
+                        <img class="w_modules_100" src="./assets/images/png/modulas-img.png" alt="modulas-img">
+                        <div class="blank">
+                            <p class="ff-work text24-lg fw-700 lh-sm-37 lh-25 mb-lg-2 mb-1 text_align_center">Manage
+                                Your <span class="gradient_text">Customer
+                                    Queues</span></p>
+                            <p
+                                class="ff-work fw-normal text16-sm lh-25 color-black opacity-70 max_w_484 mb-lg-3 mb-2 text_align_center">
+                                The
+                                Maitre D
+                                queue
+                                management system is designed to
+                                allow your
+                                customers to sign up for walk-in appointments and select
+                                the services they want ahead of time. The queue will provide them with estimated wait
+                                times,
+                                costs and will allow them
+                                to even select their preferred stylist.</p>
+                            <p
+                                class="ff-work fw-normal text16-sm lh-25 color-black opacity-70 max_w_484 mb-lg-3 mb-2 text_align_center">
+                                As
+                                the queue gets
+                                bigger or smaller, its easy to monitor your operations and understand when wait periods
+                                are
+                                getting
+                                too long to service your customer base and to better resource your stores during busy
+                                periods.
+                                Beat the frustration of
+                                your customers ahead of time and help manage how they wait for your services</p>
+                            <div class="text_align_center">
+                                <button class="ff-work fw-700  text20-md lh-23 color-white comn_btn mb_lg_38 mb_20">Buy
+                                    Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center position-relative">
+                    <div class="position-absolute next_btn_Icon d-xl-block d-none next"><img
+                            src="./assets/images/svg/next_btn.svg" alt="next_btn">
+                    </div>
+                    <div class="position-absolute prev_btn_Icon d-xl-block d-none prev"><img
+                            src="./assets/images/svg/prev_btn.svg" alt="prev_btn"></div>
+                    <div class="d-flex justify-content-center flex_wrap gap_lg_52  modules_box">
+                        <div class="blank">
+                            <p
+                                class="ff-work text24-lg fw-700 lh-sm-37 lh-25 mb-lg-2 mb-1 text_align_center text-nowrap">
+                                Sell your
+                                products and <span class="gradient_text">services with ease</span></p>
+                            <p
+                                class="ff-work fw-normal text16-sm lh-25 color-black opacity-70 max_w_484 mb-lg-3 mb-2 text_align_center">
+                                The Maitre D POS solution is designed to allow our clients to commence their sales
+                                process by creating products and
+                                services with an intuitive and clean product management database. Group products and
+                                services the way you want to see
+                                them, and combine them into packages for customers to purchase seamlessly.</p>
+                            <p
+                                class="ff-work fw-normal text16-sm lh-25 color-black opacity-70 max_w_484 mb-lg-3 mb-2 text_align_center">
+                                When operating in a service based environment that could include many services and
+                                products, the POS system allows the
+                                operates to take a job ticket, filled with items and transition this into a seamless
+                                swipe and pay interface for the
+                                client. Get your clients in and out the door faster than ever!</p>
+                            <div class="text_align_center">
+                                <button class="ff-work fw-700  text20-md lh-23 color-white comn_btn mb_lg_38 mb_20">Buy
+                                    Now</button>
+                            </div>
+                        </div>
+                        <img class="w_modules_100" src="./assets/images/png/modulas-img.png" alt="modulas-img">
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center position-relative">
+                    <div class="position-absolute next_btn_Icon d-xl-block d-none next"><img
+                            src="./assets/images/svg/next_btn.svg" alt="next_btn">
+                    </div>
+                    <div class="position-absolute prev_btn_Icon d-xl-block d-none prev"><img
+                            src="./assets/images/svg/prev_btn.svg" alt="prev_btn"></div>
+                    <div class="d-flex justify-content-center flex_wrap gap_lg_52  modules_box">
+                        <img class="w_modules_100" src="./assets/images/png/modulas-img.png" alt="modulas-img">
+                        <div class="blank">
+                            <p class="ff-work text24-lg fw-700 lh-sm-37 lh-25 mb-lg-2 mb-1 text_align_center">Manage
+                                your team <span class="gradient_text">with visibility</span></p>
+                            <p
+                                class="ff-work fw-normal text16-sm lh-25 color-black opacity-70 max_w_484 mb-lg-3 mb-2 text_align_center">
+                                The Maitre D Barber Management solution is designed for our clients to manage their
+                                staff remotely through a clean and
+                                presentable interface. Develop rosters for your staff with a workflow that allows staff
+                                to apply for time off and leave
+                                and go through an approval process that automatically updates the roster</p>
+                            <p
+                                class="ff-work fw-normal text16-sm lh-25 color-black opacity-70 max_w_484 mb-lg-3 mb-2 text_align_center">
+                                Through our job ticket system, it is easy to see what staff is working on at any moment
+                                in time and analyse the past to
+                                measure the efficiency of staff members work habits. You staff can effortless start and
+                                stop work, and tracking the
+                                utilisation of your team is done seamlessly within the reporting system. Take control of
+                                your team, and learn more about
+                                what they are doing, and how it is impacting your business.</p>
+                            <div class="text_align_center">
+                                <button class="ff-work fw-700  text20-md lh-23 color-white comn_btn mb_lg_38 mb_20">Buy
+                                    Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center position-relative">
+                    <div class="position-absolute next_btn_Icon d-xl-block d-none next"><img
+                            src="./assets/images/svg/next_btn.svg" alt="next_btn">
+                    </div>
+                    <div class="position-absolute prev_btn_Icon d-xl-block d-none prev"><img
+                            src="./assets/images/svg/prev_btn.svg" alt="prev_btn"></div>
+                    <div class="d-flex justify-content-center flex_wrap gap_lg_52  modules_box">
+                        <div class="blank">
+                            <p
+                                class="ff-work text24-lg fw-700 lh-sm-37 lh-25 mb-lg-2 mb-1 text_align_center text-nowrap">
+                                Understand your <span class="gradient_text">Customers</span></p>
+                            <p
+                                class="ff-work fw-normal text16-sm lh-25 color-black opacity-70 max_w_484 mb-lg-3 mb-2 text_align_center">
+                                Your Customer Database will allow you to analyze and understand not only who your
+                                customers are, but what they want.
+                                Customers can input their pertinent information to Maitre D, and begin to view those
+                                customer's purchase history,
+                                demographics, special request, and notes.</p>
+                            <p
+                                class="ff-work fw-normal text16-sm lh-25 color-black opacity-70 max_w_484 mb-lg-3 mb-2 text_align_center">
+                                Is your business reaching all of your local neighborhoods? Are you buying the
+                                appropriate products for your age
+                                demographic? All of this and more is at your finger tips. Your customer database will
+                                change how your look at your
+                                business when you better understand who you are serving.</p>
+                            <div class="text_align_center">
+                                <button class="ff-work fw-700  text20-md lh-23 color-white comn_btn mb_lg_38 mb_20">Buy
+                                    Now</button>
+                            </div>
+                        </div>
+                        <img class="w_modules_100" src="./assets/images/png/modulas-img.png" alt="modulas-img">
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center position-relative">
+                    <div class="position-absolute next_btn_Icon d-xl-block d-none next"><img src="./assets/images/svg/next_btn.svg"
+                            alt="next_btn">
+                    </div>
+                    <div class="position-absolute prev_btn_Icon d-xl-block d-none prev"><img src="./assets/images/svg/prev_btn.svg"
+                            alt="prev_btn"></div>
+                    <div class="d-flex justify-content-center flex_wrap gap_lg_52  modules_box">
+                        <img class="w_modules_100" src="./assets/images/png/modulas-img.png" alt="modulas-img">
+                        <div class="blank">
+                            <p class="ff-work text24-lg fw-700 lh-sm-37 lh-25 mb-lg-2 mb-1 text_align_center">Manage Timesheets <span class="gradient_text">Seamlessly</span></p>
+                            <p
+                                class="ff-work fw-normal text16-sm lh-25 color-black opacity-70 max_w_484 mb-lg-3 mb-2 text_align_center">
+                            The Maitre D Timesheet system is designed to allow your employees to accurately record their working time for the day
+                            against jobs or tasks. This data is recorded down to the minute to allow for the most accurate information to provide
+                            your payroll provider, review performance, or maximize utilization.</p>
+                            <p
+                                class="ff-work fw-normal text16-sm lh-25 color-black opacity-70 max_w_484 mb-lg-3 mb-2 text_align_center">
+                            Accurate timesheet entry and data is critical to understanding your labor costs, requirements, and efficiencies to
+                            better run your business. Start making it easier for your staff to record their time so Maitre D can make it easier to
+                            manage your staff.</p>
+                            <div class="text_align_center">
+                                <button class="ff-work fw-700  text20-md lh-23 color-white comn_btn mb_lg_38 mb_20">Buy
+                                    Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center position-relative">
+                    <div class="position-absolute next_btn_Icon d-xl-block d-none next"><img
+                            src="./assets/images/svg/next_btn.svg" alt="next_btn">
+                    </div>
+                    <div class="position-absolute prev_btn_Icon d-xl-block d-none prev"><img
+                            src="./assets/images/svg/prev_btn.svg" alt="prev_btn"></div>
+                    <div class="d-flex justify-content-center flex_wrap gap_lg_52  modules_box">
+                        <div class="blank">
+                            <p
+                                class="ff-work text24-lg fw-700 lh-sm-37 lh-25 mb-lg-2 mb-1 text_align_center text-nowrap">
+                                Get your prices right, <span class="gradient_text">year round</span></p>
+                            <p
+                                class="ff-work fw-normal text16-sm lh-25 color-black opacity-70 max_w_484 mb-lg-3 mb-2 text_align_center">
+                                The Maitre D Pricing Management tool allows you to control all aspects of your pricing
+                                for all products that you offer.
+                                Manage seasonal pricing to trigger based on your yearly offerings for set time periods.
+                                Control what discounts you offer
+                                and how they can be used. Understand the impacts of future and prior pricing models.</p>
+                            <p
+                                class="ff-work fw-normal text16-sm lh-25 color-black opacity-70 max_w_484 mb-lg-3 mb-2 text_align_center">
+                                When operating in a service based environment that could include many services and
+                                Accurate pricing will help better control your product margins. With the ability to
+                                analyze your pricing and understand
+                                how changes impact your business you have complete visibility on which products are your
+                                winners and which are your
+                                losers.</p>
+                            <div class="text_align_center">
+                                <button class="ff-work fw-700  text20-md lh-23 color-white comn_btn mb_lg_38 mb_20">Buy
+                                    Now</button>
+                            </div>
+                        </div>
+                        <img class="w_modules_100" src="./assets/images/png/modulas-img.png" alt="modulas-img">
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center position-relative">
+                    <div class="position-absolute next_btn_Icon d-xl-block d-none next"><img
+                            src="./assets/images/svg/next_btn.svg" alt="next_btn">
+                    </div>
+                    <div class="position-absolute prev_btn_Icon d-xl-block d-none prev"><img
+                            src="./assets/images/svg/prev_btn.svg" alt="prev_btn"></div>
+                    <div class="d-flex justify-content-center flex_wrap gap_lg_52  modules_box">
+                        <img class="w_modules_100" src="./assets/images/png/modulas-img.png" alt="modulas-img">
+                        <div class="blank">
+                            <p class="ff-work text24-lg fw-700 lh-sm-37 lh-25 mb-lg-2 mb-1 text_align_center">Gain
+                                visibility into your <span class="gradient_text">stock on hand</span></p>
+                            <p
+                                class="ff-work fw-normal text16-sm lh-25 color-black opacity-70 max_w_484 mb-lg-3 mb-2 text_align_center">
+                                The Maitre D inventory management system is designed to allow our clients to have
+                                visibility of their inventory in real
+                                time, across as many locations as needed. Salons often manage their inventory as a
+                                by-product of their business. Our
+                                simple and well structured inventory management system allows you to create an inventory
+                                listing, transfer and receive
+                                it across your locations and deplete it instantly as you make sales over the counter or
+                                use products within the delivery
+                                of services.</p>
+                            <div class="text_align_center">
+                                <button class="ff-work fw-700  text20-md lh-23 color-white comn_btn mb_lg_38 mb_20">Buy
+                                    Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center position-relative">
+                    <div class="position-absolute next_btn_Icon d-xl-block d-none next"><img
+                            src="./assets/images/svg/next_btn.svg" alt="next_btn">
+                    </div>
+                    <div class="position-absolute prev_btn_Icon d-xl-block d-none prev"><img
+                            src="./assets/images/svg/prev_btn.svg" alt="prev_btn"></div>
+                    <div class="d-flex justify-content-center flex_wrap gap_lg_52  modules_box">
+                        <div class="blank">
+                            <p
+                                class="ff-work text24-lg fw-700 lh-sm-37 lh-25 mb-lg-2 mb-1 text_align_center text-nowrap">
+                                Manage Your <span class="gradient_text">Customer Queues</span></p>
+                            <p
+                                class="ff-work fw-normal text16-sm lh-25 color-black opacity-70 max_w_484 mb-lg-3 mb-2 text_align_center">
+                                The Maitre D queue management system is designed to allow your customers to sign up for
+                                walk-in appointments and select
+                                the services they want ahead of time. The queue will provide them with estimated wait
+                                times, costs and will allow them
+                                to even select their preferred stylist.</p>
+                            <p
+                                class="ff-work fw-normal text16-sm lh-25 color-black opacity-70 max_w_484 mb-lg-3 mb-2 text_align_center">
+                                As the queue gets bigger or smaller, its easy to monitor your operations and understand
+                                when wait periods are getting
+                                too long to service your customer base and to better resource your stores during busy
+                                periods. Beat the frustration of
+                                your customers ahead of time and help manage how they wait for your services</p>
+                            <div class="text_align_center">
+                                <button class="ff-work fw-700  text20-md lh-23 color-white comn_btn mb_lg_38 mb_20">Buy
+                                    Now</button>
+                            </div>
+                        </div>
+                        <img class="w_modules_100" src="./assets/images/png/modulas-img.png" alt="modulas-img">
+                    </div>
+                </div>
+            </div>
+        </div>
         </div>
     </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
     <script src="./assets/js/script.js"></script>
 </body>
 

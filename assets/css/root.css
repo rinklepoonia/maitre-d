@@ -2,8 +2,8 @@
     --fs-s: 12px;
     --fs-xsm: 14px;
     --fs-sm: 16px;
-    --fs-md: 20px;
-    --fs-lg: 24px;
+    --fs-md: 16px;
+    --fs-lg: 20px;
     --fs-xl: 25px;
     --fs-2xl: 48px;
     --fs-3xl: 61.17px;
@@ -14,6 +14,7 @@
     --clr-brownniss: #FF586E47;
     --clr-white: #FFFFFF;
     --clr-purple: #8256F066;
+    --clr-gridentRed:#F14F09;
 }
 
 .color-white {
@@ -57,12 +58,16 @@
 }
 
 @media (min-width:576px) {
-    :root {}
+    :root {
+        --fs-md: 20px;
+    }
 }
 
 @media (min-width:768px) {
     :root {
         --fs-xl: 35px;
+        --fs-lg: 24px;
+
     }
 }
 
