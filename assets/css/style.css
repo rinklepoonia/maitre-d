@@ -79,16 +79,20 @@
     line-height: 56px;
 }
 
-.lh-72 {
-    line-height: 72px;
-}
-
 /* ===========hero-section=========== */
 .hero_bg_img {
     background-image: url(/assets/images/png/hero-png-img.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.max_w_729 {
+    max-width: 755px;
+}
+
+.pt-128 {
+    padding-top: 128px;
 }
 
 .gap_46 {
@@ -102,6 +106,16 @@
 .py_28 {
     padding-top: 28px;
     padding-bottom: 28px;
+}
+
+.position_arrowIcon {
+    top: 42%;
+    left: 16%;
+}
+
+.position_sun {
+    top: 25%;
+    right: 1%;
 }
 
 /* ===================== */
@@ -380,6 +394,10 @@
         padding-bottom: 70px;
     }
 
+    .lh-md-60 {
+        line-height: 60px;
+    }
+
     .w_modules_100 {
         max-width: 443px;
         object-fit: cover;
@@ -407,6 +425,10 @@
 
     .gap_lg_45 {
         gap: 45px;
+    }
+
+    .lh-lg-72 {
+        line-height: 72px;
     }
 
     .feature_box {
