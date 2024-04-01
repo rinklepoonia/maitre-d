@@ -10,7 +10,7 @@ menuIcon.addEventListener("click", function () {
 $('.responsive').slick({
     dots: false,
     infinite: true,
-    autoplay: true,
+    // autoplay: true,
     speed: 300,
     slidesToShow: 1,
     slidesToScroll: 1,

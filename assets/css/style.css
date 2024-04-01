@@ -298,6 +298,10 @@
 } */
 
 /* ===============modulas=========== */
+.cursor-pointer {
+    cursor: pointer;
+}
+
 .gap_lg_52 {
     gap: 15px;
 }
@@ -315,15 +319,25 @@
 
 .slider_icon_position {
     top: 30%;
-    right: 12%;
+    right: 20%;
 }
 
 .w_modules_100 {
     width: 100%;
+    max-width: 290px;
 }
 
 .slick-dots li.slick-active button:before {
     color: var(--clr-gridentRed);
+}
+
+.slick-track {
+    display: flex;
+    gap: 30px;
+}
+
+.slick-dots {
+    bottom: 70px;
 }
 
 
@@ -402,6 +416,10 @@
         padding: 12px 37px;
     }
 
+    .slick-dots {
+        bottom: 54px;
+    }
+
 }
 
 @media (min-width:768px) {
@@ -426,9 +444,17 @@
     .modules_box {
         padding: 34px 36px 0 36px;
     }
+
+    .slick-dots {
+        bottom: 6px;
+    }
 }
 
 @media (min-width:992px) {
+    .text_nowrap {
+        text-wrap: nowrap;
+    }
+
     .max_w_453 {
         max-width: 453px;
     }
@@ -482,7 +508,7 @@
 
 }
 
-@media (min-width:1200px) {
+@media (min-width:1400px) {
     .next_btn_Icon {
         right: 1%;
         top: 50%
