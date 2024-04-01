@@ -13,6 +13,14 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+.container_1140 {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
 /* ===============font-weight=========== */
 .fw-normal {
     font-weight: 400 !important;
