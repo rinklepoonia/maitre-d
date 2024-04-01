@@ -118,7 +118,7 @@
     right: 1%;
 }
 
-/* ===================== */
+/* ==========about-us=========== */
 .orang_layer_position {
     top: 0;
 }
@@ -127,9 +127,10 @@
     top: 100px;
 }
 
-.pt_225 {
-    padding-top: 225px;
+.pt_60 {
+    padding-top: 60px;
 }
+
 
 .max_w_443 {
     max-width: 443px;
@@ -374,6 +375,10 @@
         padding-bottom: 40px;
     }
 
+    .pt_sm_100 {
+        padding-top: 100px;
+    }
+
     .lh-sm-37 {
         line-height: 37px;
     }
@@ -392,6 +397,10 @@
     .py_217 {
         padding-top: 70px;
         padding-bottom: 70px;
+    }
+
+    .pt_md_178 {
+        padding-top: 178px;
     }
 
     .lh-md-60 {
@@ -421,6 +430,10 @@
     .py_121_43 {
         padding-top: 121px;
         padding-bottom: 43px;
+    }
+
+    .pt_lg_225 {
+        padding-top: 225px;
     }
 
     .gap_lg_45 {
