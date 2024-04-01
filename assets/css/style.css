@@ -188,7 +188,7 @@
     padding-bottom: 10px;
 }
 
-.py_217 {
+.py_30 {
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -250,6 +250,7 @@
     border-radius: 30.5px;
     border: 2px solid transparent;
     position: relative;
+    transition: all 300ms linear;
 }
 
 .comn_btn:hover {
@@ -257,7 +258,7 @@
 }
 
 
-.comn_btn:hover::before {
+/* .comn_btn:hover::before {
     content: "";
     position: absolute;
     inset: -1px;
@@ -268,23 +269,33 @@
     filter: blur(15px);
     box-shadow: 10px 10px 5px -2px var(--clr-gridentOrnage);
     transition: all 0.5s linear;
+} */
+
+.position_white_ellip {
+    bottom: 0;
+    right: 0;
 }
 
-.white_ellip {
+.position_white_ellip2 {
+    bottom: 20px;
+    right: 0;
+}
+
+/* .white_ellip {
     width: 156px;
     height: 156px;
-    color: var(--clr-white);
+    background: var(--clr-white);
     opacity: 12%;
     filter: blur(150px);
-}
+} */
 
-.white_ellip2 {
+/* .white_ellip2 {
     width: 221px;
     height: 221px;
     color: var(--clr-white);
     opacity: 12%;
     filter: blur(150px);
-}
+} */
 
 /* ===============modulas=========== */
 .gap_lg_52 {
@@ -365,7 +376,7 @@
 }
 
 @media (min-width:576px) {
-    .py_217 {
+    .py_sm_50 {
         padding-top: 50px;
         padding-bottom: 50px;
     }
@@ -394,7 +405,7 @@
 }
 
 @media (min-width:768px) {
-    .py_217 {
+    .py_md_70 {
         padding-top: 70px;
         padding-bottom: 70px;
     }
@@ -422,7 +433,7 @@
         max-width: 453px;
     }
 
-    .py_217 {
+    .py_lg_217 {
         padding-top: 217px;
         padding-bottom: 217px;
     }
