@@ -399,8 +399,6 @@
     padding-bottom: 0;
 }
 
-
-
 .h_71 {
     max-height: 71px;
 }
@@ -420,6 +418,42 @@
 .pricing_iconPosition {
     bottom: 73px;
     left: 20%;
+}
+
+/* ===============footer============ */
+.footer_bg {
+    background-image: url(../images/png/footer-bg-img.png);
+    background-size: cover;
+    /* background-position: center; */
+}
+
+.max_w_375 {
+    max-width: 375px;
+}
+
+.max_w_294 {
+    max-width: 294px;
+}
+
+.mb_15 {
+    margin-bottom: 15px;
+}
+
+.mb_35 {
+    margin-bottom: 35px;
+}
+
+.py_15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.pt_82 {
+    padding-top: 82px;
+}
+
+.border_bottom {
+    border: 1px solid #FFFFFF40
 }
 
 @media (max-width:992px) {
