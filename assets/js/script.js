@@ -6,6 +6,7 @@ menuIcon.addEventListener("click", function () {
     document.body.classList.toggle("overFlowHidden")
     document.querySelector(".menuIcon").classList.toggle("cross")
 })
+
 // back-to-top
 const topBtn = document.querySelector(".topBtn");
 const show = document.querySelector(".show");
@@ -20,11 +21,16 @@ window.addEventListener("scroll", function () {
 topBtn.addEventListener("click", function () {
     document.documentElement.scrollTop = 0;
 });
+// ===========togle_btn
+const turnBtn = document.querySelector(".turnBtn")
+turnBtn.addEventListener("click", function () {
+    turnBtn.classList.toggle("justify-content-end")
+})
 
 $('.responsive').slick({
     dots: false,
     infinite: true,
-    autoplay: true,
+    // autoplay: true,
     speed: 300,
     slidesToShow: 1,
     slidesToScroll: 1,

@@ -173,8 +173,8 @@
 } */
 
 .position_sun {
-    top: 25%;
-    right: 1%;
+    top: 22%;
+    right: 6%;
 }
 
 /* ==========about-us=========== */
@@ -443,12 +443,17 @@
     border-radius: 0 0 10px 10px;
 }
 
+.justify-content-end {
+    justify-content: end !important;
+}
+
 .white_toggle_cirle {
     width: 77px;
     height: 34px;
     border-radius: 19px;
     background: var(--clr-white);
     padding: 3px;
+    cursor: pointer;
 }
 
 .grident_circle {
@@ -840,12 +845,12 @@
 
 @media (min-width:1400px) {
     .next_btn_Icon {
-        right: 1%;
+        right: 0;
         top: 50%
     }
 
     .prev_btn_Icon {
-        left: 1%;
+        left: 0;
         top: 50%;
     }
 
