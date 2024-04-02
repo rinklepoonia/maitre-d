@@ -6,6 +6,11 @@ menuIcon.addEventListener("click", function () {
     document.body.classList.toggle("overFlowHidden")
     document.querySelector(".menuIcon").classList.toggle("cross")
 })
+// preloder
+const Preload = document.getElementById("preload")
+setTimeout(() => {
+    Preload.classList.add("d-none")
+}, "4000");
 
 // back-to-top
 const topBtn = document.querySelector(".topBtn");
