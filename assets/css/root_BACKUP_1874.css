@@ -5,12 +5,15 @@
     --fs-md: 16px;
     --fs-lg: 20px;
     --fs-xl: 25px;
+<<<<<<< HEAD
     --fs-2xl: 48px;
     --fs-3xl: 35px;
+=======
     --fs-2xl: 30px;
-    --fs-3xl: 35px;
+    --fs-3xl: 61.17px;
+>>>>>>> c024a4655100bf9fdcf3e15a5a7d91308f4a7647
     /* color */
-    --clr-black70: #4D4D4D;
+    --clr-black70:#4D4D4D;
     --clr-black: #000000;
     --clr-gridentOrnage: #FD9B2B;
     --clr-whiteShadow: #0000000A;
@@ -19,8 +22,11 @@
     --clr-white: #FFFFFF;
     --clr-purple: #8256F066;
     --clr-gridentRed: #F14F09;
+<<<<<<< HEAD
+=======
     --clr-borderWhite: #E8E8E8;
-    --clr-bordergry: #FFFFFF40;
+    --clr-bordergry:#FFFFFF40;
+>>>>>>> c024a4655100bf9fdcf3e15a5a7d91308f4a7647
 }
 
 .color-white {
