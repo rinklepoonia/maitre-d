@@ -570,6 +570,31 @@
     border: 1px solid var(--clr-bordergry);
 }
 
+.footer_ellip1_position {
+    left: 0;
+    top: 49%;
+}
+
+.footer_ellip2_position {
+    left: 4%;
+    top: 77%;
+}
+
+.footer_ellip3_position {
+    bottom: 0;
+    left: 2%;
+}
+
+.footer_ellip4_position {
+    top: 34%;
+    right: 9%;
+}
+
+.footer_ellip5_position {
+    top: 45%;
+    right: 10%;
+}
+
 .topBtn {
     width: 40px;
     height: 40px;
