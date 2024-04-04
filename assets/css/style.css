@@ -451,6 +451,10 @@
 }
 
 /* ===============contact-us================ */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
 .border_none {
     border: none;
     outline: none;
