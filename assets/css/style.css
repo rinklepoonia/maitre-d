@@ -841,12 +841,12 @@
     }
 
     .next_btn_Icon {
-        right: 5%;
+        right: 10%;
         top: 50%
     }
 
     .prev_btn_Icon {
-        left: 5%;
+        left: 10%;
         top: 50%;
     }
 }
