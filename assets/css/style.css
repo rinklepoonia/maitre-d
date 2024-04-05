@@ -252,8 +252,8 @@
     padding-bottom: 30px;
 }
 
-.max_w_212 {
-    max-width: 212px;
+.max_w_152 {
+    max-width: 152px;
 }
 
 .feature_box {
@@ -268,10 +268,7 @@
 .feature_box:hover {
     background: linear-gradient(96.64deg, #FD9B2B 13.58%, #F14F09 86.99%);
     transition: all 0.5s linear;
-}
-
-.feature_box:hover {
-    transform: translateY(-43px);
+    scale: 0.9;
 }
 
 .feature_box:hover .feature_IconBox {
@@ -641,6 +638,10 @@
 }
 
 @media (min-width:576px) {
+    .max_w_sm_212 {
+        max-width: 212px;
+    }
+
     .py_sm_50 {
         padding-top: 50px;
         padding-bottom: 50px;
@@ -677,6 +678,10 @@
 
     .gap_sm_52 {
         gap: 52px;
+    }
+
+    .gap_sm_36 {
+        gap: 36px;
     }
 
     .pb_sm_35 {
@@ -722,6 +727,10 @@
 
     .platinum_box {
         padding: 41px 25px;
+    }
+
+    .feature_box:hover {
+        transform: translateY(-43px);
     }
 }
 
