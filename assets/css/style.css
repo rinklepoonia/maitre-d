@@ -118,7 +118,7 @@
 
 /* ===========hero-section=========== */
 .hero_bg_img {
-    background-image: url(/assets/images/png/hero-bg.png);
+    background-image: url(/assets/images/png/hero-png-img.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -167,7 +167,7 @@
 }
 
 .position_sun {
-    top: 22%;
+    top: 18%;
     right: 6%;
 }
 
