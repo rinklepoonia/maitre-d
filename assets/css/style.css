@@ -419,7 +419,7 @@
 .yearly_white_box {
     box-shadow: 0px 6px 12px 0px var(--clr-pureWhite);
     padding: 35px 42px;
-    border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px2
 }
 
 .justify-content-end {
@@ -877,12 +877,12 @@
 
     .next_btn_Icon {
         right: -105px;
-        top: 50%
+        top: 20%
     }
 
     .prev_btn_Icon {
         left: -105px;
-        top: 50%;
+        top: 20%;
     }
 
 }
