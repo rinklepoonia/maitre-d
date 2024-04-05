@@ -254,6 +254,16 @@
     max-width: 152px;
 }
 
+.position_feature_blueIcon {
+    top: 71%;
+    left: 12%;
+}
+
+.position_feature_crossIcon {
+    top: 24%;
+    right: 30%;
+}
+
 .feature_box {
     padding: 20px 20px;
     min-width: 293px;
@@ -266,7 +276,7 @@
 .feature_box:hover {
     background: linear-gradient(96.64deg, #FD9B2B 13.58%, #F14F09 86.99%);
     transition: all 0.5s linear;
-    scale: 0.9;
+    transform: translateY(-43px);
 }
 
 .feature_box:hover .feature_IconBox {
@@ -443,7 +453,6 @@
     display: flex;
 }
 
-.grident_circle:hover {}
 
 .dimand_box {
     width: 55px;
@@ -701,8 +710,8 @@
         gap: 36px;
     }
 
-    .pb_sm_35 {
-        padding-bottom: 35px;
+    .pb_sm_15 {
+        padding-bottom: 15px;
     }
 
     .mt_sm_30 {
@@ -713,6 +722,12 @@
         margin-top: 0;
     }
 
+}
+
+@media (max-width:767.98px) {
+    .feature_box:hover {
+        scale: 0.9;
+    }
 }
 
 @media (min-width:768px) {
@@ -746,9 +761,6 @@
         padding: 41px 25px;
     }
 
-    .feature_box:hover {
-        transform: translateY(-43px);
-    }
 }
 
 @media (min-width:992px) {
@@ -877,12 +889,12 @@
 
     .next_btn_Icon {
         right: -105px;
-        top: 20%
+        top: 50%
     }
 
     .prev_btn_Icon {
         left: -105px;
-        top: 20%;
+        top: 50%;
     }
 
 }
