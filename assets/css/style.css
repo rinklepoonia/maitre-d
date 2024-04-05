@@ -366,13 +366,21 @@
 
 
 /* ==================pricing================= */
+.d-block {
+    display: block !important;
+}
+
+.turnBtn {
+    cursor: pointer;
+}
+
 .py_lg_191_368 {
     padding-top: 191px;
     padding-bottom: 368px;
 }
 
-.py_50 {
-    padding-top: 50px;
+.py_30_50 {
+    padding-top: 30px;
     padding-bottom: 50px;
 }
 
@@ -403,6 +411,12 @@
 }
 
 .white_box {
+    box-shadow: 0px 6px 12px 0px var(--clr-pureWhite);
+    padding: 35px 42px;
+    border-radius: 0 0 10px 10px;
+}
+
+.yearly_white_box {
     box-shadow: 0px 6px 12px 0px var(--clr-pureWhite);
     padding: 35px 42px;
     border-radius: 0 0 10px 10px;

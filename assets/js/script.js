@@ -30,7 +30,15 @@ topBtn.addEventListener("click", function () {
 const turnBtn = document.querySelector(".turnBtn")
 turnBtn.addEventListener("click", function () {
     turnBtn.classList.toggle("justify-content-end")
+    document.querySelector(".month").classList.toggle("d-none")
+    document.querySelector(".doller").classList.toggle("d-none")
+    document.querySelector(".lessDoller").classList.toggle("d-block")
+    document.querySelector(".priceYearly").classList.toggle("d-block")
+    document.querySelector(".white_box").classList.toggle("d-none")
+    document.querySelector(".yearly_white_box").classList.toggle("d-block")
 })
+
+// ============slider
 
 $('.responsive').slick({
     dots: false,
