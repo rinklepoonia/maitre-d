@@ -820,10 +820,6 @@
         margin-bottom: 78px;
     }
 
-    .next_btn_Icon {
-        right: 10px;
-        top: 50%
-    }
 
     .pricing_box {
         max-width: 540px;
@@ -837,13 +833,22 @@
         top: 25%;
         left: 7%;
     }
-
 }
 
 @media (min-width:1200px) {
     .position_arrowIcon {
         top: 26%;
         left: 13%;
+    }
+
+    .next_btn_Icon {
+        right: -50px;
+        top: 50%
+    }
+
+    .prev_btn_Icon {
+        left: -50px;
+        top: 50%;
     }
 }
 
@@ -854,12 +859,13 @@
     }
 
     .next_btn_Icon {
-        right: 10%;
+        right: -105px;
         top: 50%
     }
 
     .prev_btn_Icon {
-        left: 10%;
+        left: -105px;
         top: 50%;
     }
+
 }
