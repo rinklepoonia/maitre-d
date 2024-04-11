@@ -287,6 +287,7 @@
     box-shadow: 0px 4px 66px 0px var(--clr-whiteShadow);
     transition: all 0.5s linear;
     cursor: pointer;
+    background: var(--clr-white);
 }
 
 .feature_box:hover {
